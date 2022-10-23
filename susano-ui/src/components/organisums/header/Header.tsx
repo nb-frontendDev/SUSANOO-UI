@@ -4,6 +4,7 @@ import {jsx} from "@emotion/react";
 import React from 'react'
 import * as Css from './headerStyle';
 import GithubIcon from '../../../images/brand-github.svg';
+import SettingIcon from '../../../images/settings.svg';
 
 const Header = () => {
     
@@ -21,7 +22,7 @@ const Header = () => {
                   <img src={GithubIcon} alt="github icon" />
               </button>
               <button css={Css.ButtonStyle}>
-                  G
+                  <img src={SettingIcon} alt="setting icon" />
               </button>
            
           </div>
