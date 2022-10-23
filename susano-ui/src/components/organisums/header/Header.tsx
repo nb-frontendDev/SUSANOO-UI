@@ -24,7 +24,6 @@ const Header = () => {
               <button css={Css.ButtonStyle}>
                   <img src={SettingIcon} alt="setting icon" />
               </button>
-           
           </div>
     </div>
   )

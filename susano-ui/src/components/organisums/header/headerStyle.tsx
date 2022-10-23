@@ -34,7 +34,6 @@ export const ButtonStyle = css`
   padding: 5px;
   width: 27px;
   height: 27px;
-
   position: relative;
 
   img{
@@ -45,4 +44,13 @@ export const ButtonStyle = css`
     width: 18px;
     height: 18px;
   }
+
+  &:hover{
+    opacity: 0.7;
+    transition: all 0.5s;
+  }
+
+
+
+
 `
