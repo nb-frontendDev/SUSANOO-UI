@@ -11,7 +11,7 @@ const ComponentsIntroduction = () => {
           <div css={Css.DocumentContainer}>
               <h3>Susanoo's Document</h3>
               <p>
-                  Susanoo UI is a modern Japanese style component composed of React/typescript.
+                  Susanoo UI is a modern Japanese style component composed of <span>React/typescript</span>.
                   <br />
                   Developed from scratch by a young Japanese designer.
               </p>

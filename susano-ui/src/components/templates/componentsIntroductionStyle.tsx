@@ -17,11 +17,14 @@ export const DocumentContainer = css`
         background-color: rgba(145, 158, 171, 0.12);
         margin-top: 20px;
         font-size: 1.0rem;
-        font-weight: 500;
+        font-weight: 400;
         color: #f8f8f8;
         border: 1px dashed rgba(145, 158, 171, 0.24);
         border-radius: 12px;
         line-height: 45px;
+    }
+    span{
+        color: rgb(250, 84, 28);;
     }
 `;
 
