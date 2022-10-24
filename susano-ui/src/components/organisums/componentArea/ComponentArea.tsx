@@ -8,9 +8,8 @@ import * as Css from './componentAreaStyle';
 const ComponentArea = (props) => {
     const { label } = props;
     return (
-        
             <div css={Css.ComponentsParts}>
-            <p>{label}</p>
+                <p>{label}</p>
             </div>
   )
 }
