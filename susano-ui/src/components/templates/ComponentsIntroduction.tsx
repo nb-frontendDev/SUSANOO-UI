@@ -1,11 +1,14 @@
 /** @jsxRuntime classic */
 /** @jsx jsx */
 import {jsx} from "@emotion/react";
-import React from 'react'
+import React, { FC } from 'react'
+import ComponentArea from "../organisums/componentArea/ComponentArea";
 
 import * as Css from './componentsIntroductionStyle';
 
-const ComponentsIntroduction = () => {
+
+
+const ComponentsIntroduction :FC= () => {
   return (
       <div css={Css.PageContainer}>
           <div css={Css.DocumentContainer}>
@@ -23,15 +26,11 @@ const ComponentsIntroduction = () => {
               <p>Susanoo UI provides various template components.</p>
           </div>
           <div css={Css.ConponentsContaoner}>
-              <div css={Css.ComponentsParts}>
-                  <p>Toggle</p>
-              </div>
-              <div css={Css.ComponentsParts}>
-                  <p>Toggle</p>
-              </div>
-              <div css={Css.ComponentsParts}>
-                  <p>Toggle</p>
-              </div>
+              <ComponentArea label='Toggle' />
+              <ComponentArea label='Toggle' />
+              <ComponentArea label='Toggle' />
+              <ComponentArea label='Toggle' />
+              <ComponentArea label='Toggle' />
           </div>
     </div>
   )
