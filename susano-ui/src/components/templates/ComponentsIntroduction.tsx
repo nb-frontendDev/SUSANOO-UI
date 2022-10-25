@@ -3,13 +3,16 @@
 import {jsx} from "@emotion/react";
 import React, { FC } from 'react'
 import ComponentArea from "../organisums/componentArea/ComponentArea";
+import SocialMedia from "../organisums/footer/social/SocialMedia";
+import FooterTitle from "../organisums/footer/title/FooterTitle";
 
 import * as Css from './componentsIntroductionStyle';
 
 
 
 const ComponentsIntroduction :FC= () => {
-  return (
+    return (
+      <div>
       <div css={Css.PageContainer}>
           <div css={Css.DocumentContainer}>
               <h3>Susanoo's Document</h3>
@@ -36,9 +39,12 @@ const ComponentsIntroduction :FC= () => {
               <ComponentArea label='Scrollbar' />
               <ComponentArea label='Sample' />
           </div>
-          <footer>
-              
-          </footer>
+          
+            </div>
+            <footer css={Css.FooterContainer}>
+                <FooterTitle />
+                <SocialMedia />
+            </footer>
     </div>
   )
 }
