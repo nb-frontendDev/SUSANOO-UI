@@ -1,16 +1,35 @@
+/** @jsxRuntime classic */
+/** @jsx jsx */
+import {jsx} from "@emotion/react";
 import React from 'react'
 import Header from '../../organisums/header/Header'
-import ComponentsIntroduction from '../../templates/ComponentsIntroduction'
 import FooterTemplate from '../../templates/footer/FooterTemplate'
 
-const ComponentLibrary = () => {
+import * as Css from './pageLibraryStyle';
+
+const PageLibrary = () => {
     return (
         <div>
             <Header />
-            <ComponentsIntroduction />
+            <div css={Css.PageLibraryContainer}>
+                <div css={Css.MainTitleStyle}>
+                    <h2>
+                    Pages Template
+                    <br />
+                    with my Susanoo UI
+                </h2>    
+                <p>
+                    A collection of the best React templates and tools curated by SUSANOO's creators.
+                </p>
+
+                </div>
+                
+                
+            </div>
+            
             <FooterTemplate />
         </div>
     )
 }
 
-export default ComponentLibrary
+export default PageLibrary
