@@ -1,13 +1,11 @@
 import React from 'react';
 import './App.css';
-import Header from './components/organisums/header/Header';
-import ComponentsIntroduction from './components/templates/ComponentsIntroduction';
+import ComponentLibrary from './components/pages/components/ComponentLibrary';
 
 function App() {
   return (
     <>
-      <Header />
-      <ComponentsIntroduction />
+      <ComponentLibrary />
     </>
   );
 }

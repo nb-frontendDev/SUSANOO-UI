@@ -3,14 +3,12 @@
 import {jsx} from "@emotion/react";
 import React, { FC } from 'react'
 import ComponentArea from "../organisums/componentArea/ComponentArea";
-import  FooterTemplate  from './footer/FooterTemplate';
 
 import * as Css from './componentsIntroductionStyle';
 
 
 const ComponentsIntroduction :FC= () => {
     return (
-      <div>
           <div css={Css.PageContainer}>
               <div css={Css.DocumentContainer}>
                    <h3>Susanoo's Document</h3>
@@ -38,8 +36,6 @@ const ComponentsIntroduction :FC= () => {
                   <ComponentArea label='Sample' />
               </div>
             </div>
-            <FooterTemplate />
-        </div>
   )
 }
 
