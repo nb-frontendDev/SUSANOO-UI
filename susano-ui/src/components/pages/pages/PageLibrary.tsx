@@ -21,9 +21,37 @@ const PageLibrary = () => {
                     <p>
                         A collection of the best React templates and tools curated by SUSANOO's creators.
                     </p>
-                </div> 
-                <div>
-                    
+                </div>
+              
+                <div css={Css.pageTemplateContainer}>
+                    <div css={Css.pagePartsStyle}>
+                        <div>
+                            
+                        </div>
+                        <h4>Page Template Title</h4>
+                        <p>Admin & Dashboard</p>
+                    </div>
+                    <div css={Css.pagePartsStyle}>
+                        <div>
+                            
+                        </div>
+                        <h4>Page Template Title</h4>
+                        <p>Admin & Dashboard</p>
+                    </div>
+                    <div css={Css.pagePartsStyle}>
+                        <div>
+                            
+                        </div>
+                        <h4>Page Template Title</h4>
+                        <p>Admin & Dashboard</p>
+                    </div>
+                    <div css={Css.pagePartsStyle}>
+                        <div>
+                            
+                        </div>
+                        <h4>Page Template Title</h4>
+                        <p>Admin & Dashboard</p>
+                    </div>
                 </div>
             </div>
             <FooterTemplate />
