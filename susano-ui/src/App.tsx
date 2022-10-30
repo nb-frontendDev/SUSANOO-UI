@@ -6,7 +6,7 @@ import PageLibrary from './components/pages/pages/PageLibrary';
 function App() {
   return (
     <>
-      <ComponentLibrary />
+
       <PageLibrary />
     </>
   );
