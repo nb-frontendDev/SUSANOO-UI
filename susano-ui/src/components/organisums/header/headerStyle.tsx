@@ -1,6 +1,6 @@
 import { css } from '@emotion/react';
 
-export const HeaderContainer = css`
+export const headerContainer = css`
     display: flex;
     display:-webkit-box;
     align-items: center;
@@ -10,7 +10,7 @@ export const HeaderContainer = css`
 
 `;
 
-export const LinkContainer = css`
+export const linkContainer = css`
     display: flex;
     display:-webkit-box;
   
@@ -21,13 +21,13 @@ export const LinkContainer = css`
     color: #fff;
 `;
 
-export const ButtonContainer = css`
+export const buttonContainer = css`
 display: flex;
 gap:  10px;
 `;
 
 
-export const ButtonStyle = css`
+export const buttonStyle = css`
   background-color: transparent;
   border: 1px solid #707070;
   border-radius: 5px;

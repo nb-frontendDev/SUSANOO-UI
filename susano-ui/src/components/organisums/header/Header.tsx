@@ -9,19 +9,19 @@ import SettingIcon from '../../../images/settings.svg';
 const Header = () => {
     
   return (
-      <div css={Css.HeaderContainer}>
-          <div css={Css.LinkContainer}>
+      <div css={Css.headerContainer}>
+          <div css={Css.linkContainer}>
               <p>Home</p>
               <p>Components</p>
               <p>Pages</p>
               <p>About us</p>
               <p>Blog</p>
           </div>
-          <div css={Css.ButtonContainer}>
-              <button css={Css.ButtonStyle}>
+          <div css={Css.buttonContainer}>
+              <button css={Css.buttonStyle}>
                   <img src={GithubIcon} alt="github icon" />
               </button>
-              <button css={Css.ButtonStyle}>
+              <button css={Css.buttonStyle}>
                   <img src={SettingIcon} alt="setting icon" />
               </button>
           </div>

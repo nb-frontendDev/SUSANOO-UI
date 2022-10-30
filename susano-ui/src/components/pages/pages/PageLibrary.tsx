@@ -14,19 +14,18 @@ const PageLibrary = () => {
             <div css={Css.pageLibraryContainer}>
                 <div css={Css.mainTitleStyle}>
                     <h2>
-                    Pages Template
-                    <br />
-                    with my Susanoo UI
-                </h2>    
-                <p>
-                    A collection of the best React templates and tools curated by SUSANOO's creators.
-                </p>
-
+                        Pages Template
+                        <br />
+                        with my Susanoo UI
+                    </h2>    
+                    <p>
+                        A collection of the best React templates and tools curated by SUSANOO's creators.
+                    </p>
+                </div> 
+                <div>
+                    
                 </div>
-                
-                
             </div>
-            
             <FooterTemplate />
         </div>
     )
