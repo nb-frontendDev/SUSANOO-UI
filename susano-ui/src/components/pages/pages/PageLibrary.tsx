@@ -11,8 +11,8 @@ const PageLibrary = () => {
     return (
         <div>
             <Header />
-            <div css={Css.PageLibraryContainer}>
-                <div css={Css.MainTitleStyle}>
+            <div css={Css.pageLibraryContainer}>
+                <div css={Css.mainTitleStyle}>
                     <h2>
                     Pages Template
                     <br />

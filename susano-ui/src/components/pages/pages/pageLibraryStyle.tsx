@@ -1,11 +1,11 @@
 import { css } from "@emotion/react";
 
-export const PageLibraryContainer = css`
+export const pageLibraryContainer = css`
 margin-top: 50px;
 text-align: center;
 `;
 
-export const MainTitleStyle = css`
+export const mainTitleStyle = css`
 h2{
     font-size: 2rem;
     color: #fff;
