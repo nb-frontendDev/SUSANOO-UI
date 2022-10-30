@@ -15,7 +15,6 @@ const Header = () => {
               <p>Components</p>
               <p>Pages</p>
               <p>About us</p>
-              <p>Blog</p>
           </div>
           <div css={Css.buttonContainer}>
               <button css={Css.buttonStyle}>
