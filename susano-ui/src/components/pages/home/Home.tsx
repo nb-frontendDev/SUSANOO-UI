@@ -12,17 +12,17 @@ const Home = () => {
       <div>
           <Header />
           <div>
-          <div css={Css.mainTitleComtainer}>
-              <h1>
-                  Even if it's a <span>big problem</span>, <br />
-                  there's nothing you can't solve.
-              </h1>
-              <p>
-                  SUSANOO UI is a component library application <br />
-                  using modern front-end technology.
-              </p>
+              <div css={Css.mainTitleComtainer}>
+                  <h1>
+                      Even if it's a <span>big problem</span>, <br />
+                      there's nothing you can't solve.
+                  </h1>
+                  <p>
+                      SUSANOO UI is a component library application <br />
+                      using modern front-end technology.
+                  </p>
               </div>
-              </div>
+          </div>
           <FooterTemplate />
     </div>
   )

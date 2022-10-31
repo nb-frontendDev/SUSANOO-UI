@@ -15,7 +15,7 @@ h1{
 p{
     margin-top: 10px;
     font-size: 1.125rem;
-    font-weight: bold;
+
     color: rgb(145, 158, 171);
 }
 `;
