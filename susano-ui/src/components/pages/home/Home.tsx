@@ -21,9 +21,17 @@ const Home = () => {
                       SUSANOO UI is a component library application <br />
                       using modern front-end technology.
                   </p>
+                  <div css={Css.buttonContainer}>
+                      <button>To browser</button>
+                      <button>To components</button>
+                  </div>
+                  <div>
+                      {/* ここにプログラミング言語のロゴ */}
+                  </div>
               </div>
           </div>
-          <FooterTemplate />
+              <FooterTemplate />
+  
     </div>
   )
 }
