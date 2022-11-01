@@ -60,11 +60,21 @@ button{
 
 export const featureContainer = css`
     padding: 50px 80px;
+    width: 100%;
     display: flex;
+    justify-content: center;
+    gap: 20px;
 
 `;
 
 export const featureItemStyle = css`
-
+width: 200px;
+h4{
+    color: #fff;
+    font-size: 1rem;
+}
+p{
+     color: rgb(145, 158, 171)
+}
 
 `;
