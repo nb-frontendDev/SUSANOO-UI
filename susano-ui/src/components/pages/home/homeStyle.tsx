@@ -38,15 +38,33 @@ button{
     &:nth-child(1){
         color: #fff;
         background-color:  rgb(250, 84, 28);
+
+        &:hover{
+            filter: brightness(80%);
+            transition: all 0.3s;
+        }
     }
 
     &:nth-child(2){
         color: rgb(250, 84, 28);
         background-color:  none;
         border: 1px solid rgb(250, 84, 28);
+
+         &:hover{
+            filter: brightness(80%);
+            transition: all 0.3s;
+        }
     }
-
-
-    
 }
+`;
+
+export const featureContainer = css`
+    padding: 50px 80px;
+    display: flex;
+
+`;
+
+export const featureItemStyle = css`
+
+
 `;
