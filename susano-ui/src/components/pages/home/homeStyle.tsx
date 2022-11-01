@@ -59,22 +59,37 @@ button{
 `;
 
 export const featureContainer = css`
-    padding: 50px 80px;
+    padding: 20px 80px;
     width: 100%;
     display: flex;
     justify-content: center;
-    gap: 20px;
+    align-items:top;
+    gap: 40px;
 
 `;
 
 export const featureItemStyle = css`
-width: 200px;
-h4{
-    color: #fff;
-    font-size: 1rem;
-}
-p{
-     color: rgb(145, 158, 171)
-}
+    width: 200px;
+    text-align: center;
 
+    div{
+        margin: 0 auto;
+        background-color: rgb(145, 158, 171);
+        opacity:0.05; 
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+    }
+
+    h4{
+        margin-top: 10px;
+        color: #fff;
+        font-size: 1rem;
+    }
+
+    p{
+        font-size: 0.825rem;
+        color: rgb(145, 158, 171);
+        word-wrap: break-word;
+    }
 `;

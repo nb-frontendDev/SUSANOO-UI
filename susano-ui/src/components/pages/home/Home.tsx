@@ -29,6 +29,7 @@ const Home = () => {
                       {/* ここにプログラミング言語のロゴ */}
                   </div>
               </div>
+
               <div css={Css.featureContainer}>
                   <div css={Css.featureItemStyle}>
                       <div></div>
@@ -38,7 +39,7 @@ const Home = () => {
                   <div  css={Css.featureItemStyle}>
                       <div></div>
                       <h4>texttexttexttext</h4>
-                      <p>samplesamplesamplesamplesamplesamplesample</p>
+                      <p>samplesamplesamplesamplesamplesamplesamplesamplesamplesamplesamplesamplesamplesample</p>
                   </div>
                   <div  css={Css.featureItemStyle}>
                       <div></div>
