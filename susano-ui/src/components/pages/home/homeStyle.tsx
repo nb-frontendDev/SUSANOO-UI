@@ -75,7 +75,7 @@ export const featureItemStyle = css`
     div{
         margin: 0 auto;
         background-color: rgb(145, 158, 171);
-        opacity:0.05; 
+        opacity:0.2; 
         height: 50px;
         width: 50px;
         border-radius: 50%;
