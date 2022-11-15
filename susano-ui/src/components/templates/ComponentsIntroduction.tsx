@@ -29,7 +29,7 @@ const ComponentsIntroduction :FC= () => {
                   <ComponentArea label='Custom Buttons' />
                   <ComponentArea label='Icons' />
                   <ComponentArea label='Label' />
-                  <ComponentArea label='Modal' />
+                  <ComponentArea label='Modal'/>
                   <ComponentArea label='Navigation Bar' />
                   <ComponentArea label='Player' />
                   <ComponentArea label='Scrollbar' />
