@@ -5,16 +5,16 @@ import React from 'react'
 import * as Css from './headerStyle';
 import GithubIcon from '../../../images/brand-github.svg';
 import SettingIcon from '../../../images/settings.svg';
+import { Link } from "react-router-dom";
 
 const Header = () => {
     
   return (
       <div css={Css.headerContainer}>
           <div css={Css.linkContainer}>
-              <p>Home</p>
-              <p>Components</p>
-              <p>Pages</p>
-              <p>About us</p>
+              <Link to='/'>Home</Link>
+              <Link to='/components'>Components</Link>
+              <Link to='/pages'>Pages</Link>
           </div>
           <div css={Css.buttonContainer}>
               <button css={Css.buttonStyle}>
