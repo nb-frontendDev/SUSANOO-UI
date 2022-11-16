@@ -15,9 +15,15 @@ const Header = () => {
   return (
       <div css={Css.headerContainer}>
           <div css={Css.linkContainer}>
-              <Link to='/'>Home</Link>
-              <Link to='/components'>Components</Link>
-              <Link to='/pages'>Pages</Link>
+              <div>
+                  <Link to='/'>Home</Link>
+              </div>
+              <div>
+                  <Link to='/components'>Components</Link>
+              </div>
+              <div>
+                  <Link to='/pages'>Pages</Link>
+              </div>
           </div>
           <div css={Css.buttonContainer}>
               <button css={Css.buttonStyle} onClick={() => onClickGithub()}>

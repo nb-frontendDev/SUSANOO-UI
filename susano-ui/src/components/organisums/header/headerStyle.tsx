@@ -13,12 +13,19 @@ export const headerContainer = css`
 export const linkContainer = css`
     display: flex;
     display:-webkit-box;
-  
-
     gap: 40px;
     font-size: 14px;
     font-weight: 500;
     color: #fff;
+
+    div{
+
+      &:hover{
+        transition: all 0.2s;
+        color:rgb(250, 84, 28);
+      }
+      
+    }
 `;
 
 export const buttonContainer = css`
