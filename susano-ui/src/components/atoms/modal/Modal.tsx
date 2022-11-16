@@ -3,8 +3,8 @@
 import {jsx} from "@emotion/react";
 import React, { useState } from 'react'
 
-const Modal = (props) => {
-    const { show, setShow} = props;
+const Modal = () => {
+    const [ show, setShow ] = useState(false);
 
     if (show) {
         return (
