@@ -8,6 +8,9 @@ import SettingIcon from '../../../images/settings.svg';
 import { Link } from "react-router-dom";
 
 const Header = () => {
+    const onClickGithub = () => { 
+        window.location.href = 'https://github.com/shotawatanabe-coding';
+    }
     
   return (
       <div css={Css.headerContainer}>
@@ -17,7 +20,7 @@ const Header = () => {
               <Link to='/pages'>Pages</Link>
           </div>
           <div css={Css.buttonContainer}>
-              <button css={Css.buttonStyle}>
+              <button css={Css.buttonStyle} onClick={() => onClickGithub()}>
                   <img src={GithubIcon} alt="github icon" />
               </button>
               <button css={Css.buttonStyle}>
