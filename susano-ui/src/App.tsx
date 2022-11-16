@@ -1,17 +1,23 @@
 import React, { useState } from 'react';
-import './App.css';
+import { BrowserRouter } from 'react-router-dom';
+
+
 import Home from './components/pages/home/Home';
 import ComponentLibrary from './components/pages/components/ComponentLibrary';
 import PageLibrary from './components/pages/pages/PageLibrary';
 
+import './App.css';
+
+
 function App() {
   return (
-    <>
-      <Home />
-      <ComponentLibrary />
-      <PageLibrary />
-      
-    </>
+
+      <BrowserRouter>
+          <Home />
+          <ComponentLibrary />
+          <PageLibrary />
+      </BrowserRouter>
+
   );
 }
 
