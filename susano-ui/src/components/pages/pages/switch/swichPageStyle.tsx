@@ -18,3 +18,44 @@ export const titleAreaContainer = css`
 }
     }
 `;
+
+export const componentsAreaStyle = css`
+    margin-top: 50px;
+    
+
+    h3{
+         color: #fff;
+         font-size: 1.5rem;
+         font-weight: bold;
+    }
+`;
+
+
+export const componentsContainer = css`
+    margin-top: 10px;
+padding: 20px;
+border: 1px solid rgb(145, 158, 171, 0.24);
+border-radius: 10px;
+`;
+
+export const switchButtonContainer = css`
+position: relative;
+
+div{
+    width: 40px;
+    height: 15px;
+    border-radius: 25px;
+    background-color: rgb(145, 158, 171, 0.2) ;
+}
+
+button{
+    position: absolute;
+    top: -1px;
+    left: 1px;
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    background-color: rgb(250, 84, 28);
+}
+`;
+

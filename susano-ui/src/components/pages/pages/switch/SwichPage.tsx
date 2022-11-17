@@ -15,6 +15,16 @@ const SwichPage = () => {
                     <h2>Switch</h2>
                     <p>Switches toggle the state of a single setting on or off.</p>
                 </div>
+
+                <div css={Css.componentsAreaStyle}>
+                    <h3>Basic switches</h3>
+                    <div css={Css.componentsContainer}>
+                        <div css={Css.switchButtonContainer}>
+                            <div></div>
+                            <button></button>
+                        </div>
+                    </div>
+                </div>
                 
                 
             </div>
