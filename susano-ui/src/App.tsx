@@ -8,6 +8,7 @@ import PageLibrary from './components/pages/pages/PageLibrary';
 
 import './App.css';
 import NotFound from './components/pages/notFound/NotFound';
+import SwichPage from './components/pages/pages/switch/SwichPage';
 
 
 function App() {
@@ -16,7 +17,7 @@ function App() {
           <Routes>
               <Route index element={<Home />} />
               <Route path='/components' element={<ComponentLibrary />} />
-              <Route path='/components/toggle' element={<PageLibrary />} />
+              <Route path='/components/toggle' element={<SwichPage />} />
               <Route path='/pages' element={<PageLibrary />} />
               
               <Route path='*' element={<NotFound />} />
