@@ -1,12 +1,20 @@
 /** @jsxRuntime classic */
 /** @jsx jsx */
 import {jsx} from "@emotion/react";
-import React from 'react'
+import React, { useState } from 'react'
+import Switch from "../../../atoms/switch/Switch";
 import Header from '../../../organisums/header/Header'
 import FooterTemplate from '../../../templates/footer/FooterTemplate'
 import * as Css from './swichPageStyle';
 
 const SwichPage = () => {
+    const [onOff, setOnOff] = useState<boolean>(false);
+
+    const onClickSwitch = () => { 
+        setOnOff(!onOff);
+        
+    }
+    
     return (
         <div>
             <Header />
@@ -19,10 +27,7 @@ const SwichPage = () => {
                 <div css={Css.componentsAreaStyle}>
                     <h3>Basic switches</h3>
                     <div css={Css.componentsContainer}>
-                        <div css={Css.switchButtonContainer}>
-                            <div></div>
-                            <button></button>
-                        </div>
+                        <Switch show={!onOff} onClickSwitch={() => onClickSwitch()} />
                     </div>
                 </div>
                 
