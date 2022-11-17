@@ -2,6 +2,7 @@
 /** @jsx jsx */
 import {jsx} from "@emotion/react";
 import React, { FC } from 'react'
+import { Link } from "react-router-dom";
 import ComponentArea from "../organisums/componentArea/ComponentArea";
 
 import * as Css from './componentsIntroductionStyle';
@@ -22,8 +23,11 @@ const ComponentsIntroduction :FC= () => {
                   <h3>SUSANOO Components</h3>
                   <p>Susanoo UI provides various template components.</p>
               </div>
-              <div css={Css.ConponentsContaoner}>
-                  <ComponentArea label='Toggle' />
+            <div css={Css.ConponentsContaoner}>
+                <Link to='/components/toggle'>
+                    <ComponentArea label='Toggle' />
+                </Link>
+                  
                   <ComponentArea label='Carousel' />
                   <ComponentArea label='Count Up Number' />
                   <ComponentArea label='Custom Buttons' />

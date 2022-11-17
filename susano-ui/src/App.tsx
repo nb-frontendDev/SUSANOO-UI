@@ -16,7 +16,9 @@ function App() {
           <Routes>
               <Route index element={<Home />} />
               <Route path='/components' element={<ComponentLibrary />} />
+              <Route path='/components/toggle' element={<PageLibrary />} />
               <Route path='/pages' element={<PageLibrary />} />
+              
               <Route path='*' element={<NotFound />} />
           </Routes>
       </>
